@@ -39,7 +39,7 @@ pipeline {
   
  
                              bat "mvn -U sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=c8f06f7708fe387c781b32ed25c94bb5f61ef3de"
-                            echo"hi"
+                            
                             
 						}    
 					}
