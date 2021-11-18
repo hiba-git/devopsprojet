@@ -44,6 +44,10 @@ pipeline {
 						}    
 					}
 				}
+				stage ('Eamil notification'){
+				mail bcc: '', body: '''Hi welcome to jenkins email alerts 
+thanks 
+''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'hibouta_botech@hotmail.fr'}
 			}
 		}
     
